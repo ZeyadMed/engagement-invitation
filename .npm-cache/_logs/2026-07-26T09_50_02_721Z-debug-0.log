@@ -1,0 +1,535 @@
+0 verbose cli /opt/homebrew/Cellar/node/23.11.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.11.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/theonesysetem/StudioProjects/invitation/.npmrc
+5 silly config load:file:/Users/theonesysetem/.npmrc
+6 verbose config error loading user config Error: EPERM: operation not permitted, open '/Users/theonesysetem/.npmrc'
+6 verbose config     at async open (node:internal/fs/promises:634:25)
+6 verbose config     at async readFile (node:internal/fs/promises:1238:14)
+6 verbose config     at async #loadFile (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/config/lib/index.js:589:5)
+6 verbose config     at async Config.load (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/config/lib/index.js:250:5)
+6 verbose config     at async #load (/opt/homebrew/lib/node_modules/npm/lib/npm.js:98:5)
+6 verbose config     at async Npm.load (/opt/homebrew/lib/node_modules/npm/lib/npm.js:80:14)
+6 verbose config     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli/entry.js:42:37) {
+6 verbose config   errno: -1,
+6 verbose config   code: 'EPERM',
+6 verbose config   syscall: 'open',
+6 verbose config   path: '/Users/theonesysetem/.npmrc'
+6 verbose config }
+7 silly config load:file:/opt/homebrew/etc/npmrc
+8 verbose title npm install
+9 verbose argv "install"
+10 verbose logfile logs-max:10 dir:/Users/theonesysetem/StudioProjects/invitation/.npm-cache/_logs/2026-07-26T09_50_02_721Z-
+11 verbose logfile /Users/theonesysetem/StudioProjects/invitation/.npm-cache/_logs/2026-07-26T09_50_02_721Z-debug-0.log
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+14 silly idealTree buildDeps
+15 silly fetch manifest @types/qrcode@^1.5.5
+16 silly packumentCache full:https://registry.npmjs.org/@types%2fqrcode cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@types%2fqrcode 231ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@types%2fqrcode set size:undefined disposed:false
+19 silly placeDep ROOT @types/qrcode@1.5.6 OK for: eman-zeyad-invitation@1.0.0 want: ^1.5.5
+20 silly reify moves {}
+21 silly audit bulk request {
+21 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+21 silly audit   '@babel/runtime': [ '7.29.7' ],
+21 silly audit   '@emnapi/runtime': [ '1.11.3' ],
+21 silly audit   '@fontsource/cormorant-garamond': [ '5.3.0' ],
+21 silly audit   '@fontsource/manrope': [ '5.3.0' ],
+21 silly audit   '@img/colour': [ '1.1.0' ],
+21 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+21 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+21 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+21 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+21 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+21 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+21 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+21 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+21 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+21 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+21 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+21 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+21 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+21 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+21 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+21 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+21 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+21 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+21 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+21 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+21 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+21 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+21 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+21 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+21 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+21 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+21 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+21 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+21 silly audit   '@next/env': [ '15.5.22' ],
+21 silly audit   '@next/swc-darwin-arm64': [ '15.5.22' ],
+21 silly audit   '@next/swc-darwin-x64': [ '15.5.22' ],
+21 silly audit   '@next/swc-linux-arm64-gnu': [ '15.5.22' ],
+21 silly audit   '@next/swc-linux-arm64-musl': [ '15.5.22' ],
+21 silly audit   '@next/swc-linux-x64-gnu': [ '15.5.22' ],
+21 silly audit   '@next/swc-linux-x64-musl': [ '15.5.22' ],
+21 silly audit   '@next/swc-win32-arm64-msvc': [ '15.5.22' ],
+21 silly audit   '@next/swc-win32-x64-msvc': [ '15.5.22' ],
+21 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+21 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+21 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+21 silly audit   '@swc/helpers': [ '0.5.15' ],
+21 silly audit   '@types/node': [ '24.13.3' ],
+21 silly audit   '@types/pako': [ '2.0.4' ],
+21 silly audit   '@types/raf': [ '3.4.3' ],
+21 silly audit   '@types/react': [ '19.2.17' ],
+21 silly audit   '@types/react-dom': [ '19.2.3' ],
+21 silly audit   '@types/trusted-types': [ '2.0.7' ],
+21 silly audit   'ansi-regex': [ '5.0.1' ],
+21 silly audit   'ansi-styles': [ '4.3.0' ],
+21 silly audit   'any-promise': [ '1.3.0' ],
+21 silly audit   anymatch: [ '3.1.3' ],
+21 silly audit   arg: [ '5.0.2' ],
+21 silly audit   autoprefixer: [ '10.5.4' ],
+21 silly audit   'base64-arraybuffer': [ '1.0.2' ],
+21 silly audit   'baseline-browser-mapping': [ '2.11.3' ],
+21 silly audit   'binary-extensions': [ '2.3.0' ],
+21 silly audit   braces: [ '3.0.3' ],
+21 silly audit   browserslist: [ '4.28.7' ],
+21 silly audit   camelcase: [ '5.3.1' ],
+21 silly audit   'camelcase-css': [ '2.0.1' ],
+21 silly audit   'caniuse-lite': [ '1.0.30001806' ],
+21 silly audit   canvg: [ '3.0.11' ],
+21 silly audit   chokidar: [ '3.6.0' ],
+21 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+21 silly audit   'client-only': [ '0.0.1' ],
+21 silly audit   cliui: [ '6.0.0' ],
+21 silly audit   'color-convert': [ '2.0.1' ],
+21 silly audit   'color-name': [ '1.1.4' ],
+21 silly audit   commander: [ '4.1.1' ],
+21 silly audit   'core-js': [ '3.49.0' ],
+21 silly audit   'css-line-break': [ '2.1.0' ],
+21 silly audit   cssesc: [ '3.0.0' ],
+21 silly audit   csstype: [ '3.2.3' ],
+21 silly audit   decamelize: [ '1.2.0' ],
+21 silly audit   'detect-libc': [ '2.1.2' ],
+21 silly audit   didyoumean: [ '1.2.2' ],
+21 silly audit   dijkstrajs: [ '1.0.3' ],
+21 silly audit   dlv: [ '1.1.3' ],
+21 silly audit   dompurify: [ '3.4.12' ],
+21 silly audit   'electron-to-chromium': [ '1.5.396' ],
+21 silly audit   'emoji-regex': [ '8.0.0' ],
+21 silly audit   'es-errors': [ '1.3.0' ],
+21 silly audit   escalade: [ '3.2.0' ],
+21 silly audit   'fast-glob': [ '3.3.3' ],
+21 silly audit   'fast-png': [ '6.4.0' ],
+21 silly audit   fastq: [ '1.20.1' ],
+21 silly audit   fflate: [ '0.8.3' ],
+21 silly audit   'fill-range': [ '7.1.1' ],
+21 silly audit   'find-up': [ '4.1.0' ],
+21 silly audit   'fraction.js': [ '5.3.4' ],
+21 silly audit   'framer-motion': [ '11.18.2' ],
+21 silly audit   fsevents: [ '2.3.3' ],
+21 silly audit   'function-bind': [ '1.1.2' ],
+21 silly audit   'get-caller-file': [ '2.0.5' ],
+21 silly audit   hasown: [ '2.0.4' ],
+21 silly audit   'html-to-image': [ '1.11.13' ],
+21 silly audit   html2canvas: [ '1.4.1' ],
+21 silly audit   iobuffer: [ '5.4.0' ],
+21 silly audit   'is-binary-path': [ '2.1.0' ],
+21 silly audit   'is-core-module': [ '2.16.2' ],
+21 silly audit   'is-extglob': [ '2.1.1' ],
+21 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+21 silly audit   'is-glob': [ '4.0.3' ],
+21 silly audit   'is-number': [ '7.0.0' ],
+21 silly audit   jiti: [ '1.21.7' ],
+21 silly audit   jspdf: [ '3.0.4' ],
+21 silly audit   lilconfig: [ '3.1.3' ],
+21 silly audit   'lines-and-columns': [ '1.2.4' ],
+21 silly audit   'locate-path': [ '5.0.0' ],
+21 silly audit   'lucide-react': [ '0.542.0' ],
+21 silly audit   merge2: [ '1.4.1' ],
+21 silly audit   micromatch: [ '4.0.8' ],
+21 silly audit   'motion-dom': [ '11.18.1' ],
+21 silly audit   'motion-utils': [ '11.18.1' ],
+21 silly audit   mz: [ '2.7.0' ],
+21 silly audit   nanoid: [ '3.3.16' ],
+21 silly audit   next: [ '15.5.22' ],
+21 silly audit   postcss: [ '8.4.31', '8.5.23' ],
+21 silly audit   'node-releases': [ '2.0.51' ],
+21 silly audit   'normalize-path': [ '3.0.0' ],
+21 silly audit   'object-assign': [ '4.1.1' ],
+21 silly audit   'object-hash': [ '3.0.0' ],
+21 silly audit   'p-limit': [ '2.3.0' ],
+21 silly audit   'p-locate': [ '4.1.0' ],
+21 silly audit   'p-try': [ '2.2.0' ],
+21 silly audit   pako: [ '2.2.0' ],
+21 silly audit   'path-exists': [ '4.0.0' ],
+21 silly audit   'path-parse': [ '1.0.7' ],
+21 silly audit   'performance-now': [ '2.1.0' ],
+21 silly audit   picocolors: [ '1.1.1' ],
+21 silly audit   picomatch: [ '2.3.2', '4.0.5' ],
+21 silly audit   pify: [ '2.3.0' ],
+21 silly audit   pirates: [ '4.0.7' ],
+21 silly audit   pngjs: [ '5.0.0' ],
+21 silly audit   'postcss-import': [ '15.1.0' ],
+21 silly audit   'postcss-js': [ '4.1.0' ],
+21 silly audit   'postcss-load-config': [ '6.0.1' ],
+21 silly audit   'postcss-nested': [ '6.2.0' ],
+21 silly audit   'postcss-selector-parser': [ '6.1.4' ],
+21 silly audit   'postcss-value-parser': [ '4.2.0' ],
+21 silly audit   qrcode: [ '1.5.4' ],
+21 silly audit   'queue-microtask': [ '1.2.3' ],
+21 silly audit   raf: [ '3.4.1' ],
+21 silly audit   react: [ '19.2.8' ],
+21 silly audit   'react-dom': [ '19.2.8' ],
+21 silly audit   'read-cache': [ '1.0.0' ],
+21 silly audit   readdirp: [ '3.6.0' ],
+21 silly audit   'regenerator-runtime': [ '0.13.11' ],
+21 silly audit   'require-directory': [ '2.1.1' ],
+21 silly audit   'require-main-filename': [ '2.0.0' ],
+21 silly audit   resolve: [ '1.22.12' ],
+21 silly audit   reusify: [ '1.1.0' ],
+21 silly audit   rgbcolor: [ '1.0.1' ],
+21 silly audit   'run-parallel': [ '1.2.0' ],
+21 silly audit   scheduler: [ '0.27.0' ],
+21 silly audit   semver: [ '7.8.5' ],
+21 silly audit   'set-blocking': [ '2.0.0' ],
+21 silly audit   sharp: [ '0.34.5' ],
+21 silly audit   'source-map-js': [ '1.2.1' ],
+21 silly audit   'stackblur-canvas': [ '2.7.0' ],
+21 silly audit   'string-width': [ '4.2.3' ],
+21 silly audit   'strip-ansi': [ '6.0.1' ],
+21 silly audit   'styled-jsx': [ '5.1.6' ],
+21 silly audit   sucrase: [ '3.35.1' ],
+21 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+21 silly audit   'svg-pathdata': [ '6.0.3' ],
+21 silly audit   tailwindcss: [ '3.4.19' ],
+21 silly audit   'text-segmentation': [ '1.0.3' ],
+21 silly audit   thenify: [ '3.3.1' ],
+21 silly audit   'thenify-all': [ '1.6.0' ],
+21 silly audit   tinyglobby: [ '0.2.17' ],
+21 silly audit   fdir: [ '6.5.0' ],
+21 silly audit   'to-regex-range': [ '5.0.1' ],
+21 silly audit   'ts-interface-checker': [ '0.1.13' ],
+21 silly audit   tslib: [ '2.8.1' ],
+21 silly audit   typescript: [ '5.9.3' ],
+21 silly audit   'undici-types': [ '7.18.2' ],
+21 silly audit   'update-browserslist-db': [ '1.2.3' ],
+21 silly audit   'util-deprecate': [ '1.0.2' ],
+21 silly audit   utrie: [ '1.0.2' ],
+21 silly audit   'which-module': [ '2.0.1' ],
+21 silly audit   'wrap-ansi': [ '6.2.0' ],
+21 silly audit   y18n: [ '4.0.3' ],
+21 silly audit   yargs: [ '15.4.1' ],
+21 silly audit   'yargs-parser': [ '18.1.3' ],
+21 silly audit   '@types/qrcode': [ '1.5.6' ]
+21 silly audit }
+22 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-win32-x64-msvc
+23 silly reify mark deleted [
+23 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-win32-x64-msvc'
+23 silly reify ]
+24 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-win32-arm64-msvc
+25 silly reify mark deleted [
+25 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-win32-arm64-msvc'
+25 silly reify ]
+26 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-linux-x64-musl
+27 silly reify mark deleted [
+27 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-linux-x64-musl'
+27 silly reify ]
+28 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-linux-x64-gnu
+29 silly reify mark deleted [
+29 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-linux-x64-gnu'
+29 silly reify ]
+30 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-linux-arm64-musl
+31 silly reify mark deleted [
+31 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-linux-arm64-musl'
+31 silly reify ]
+32 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-linux-arm64-gnu
+33 silly reify mark deleted [
+33 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-linux-arm64-gnu'
+33 silly reify ]
+34 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-darwin-x64
+35 silly reify mark deleted [
+35 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@next/swc-darwin-x64'
+35 silly reify ]
+36 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-win32-x64
+37 silly reify mark deleted [
+37 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-win32-x64'
+37 silly reify ]
+38 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-win32-ia32
+39 silly reify mark deleted [
+39 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-win32-ia32'
+39 silly reify ]
+40 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-win32-arm64
+41 silly reify mark deleted [
+41 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-win32-arm64'
+41 silly reify ]
+42 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-wasm32
+43 silly reify mark deleted [
+43 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-wasm32'
+43 silly reify ]
+44 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@emnapi/runtime
+45 silly reify mark deleted [
+45 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@emnapi/runtime'
+45 silly reify ]
+46 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linuxmusl-x64
+47 silly reify mark deleted [
+47 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linuxmusl-x64'
+47 silly reify ]
+48 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linuxmusl-arm64
+49 silly reify mark deleted [
+49 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linuxmusl-arm64'
+49 silly reify ]
+50 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linux-x64
+51 silly reify mark deleted [
+51 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linux-x64'
+51 silly reify ]
+52 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linux-s390x
+53 silly reify mark deleted [
+53 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linux-s390x'
+53 silly reify ]
+54 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linux-riscv64
+55 silly reify mark deleted [
+55 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linux-riscv64'
+55 silly reify ]
+56 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linux-ppc64
+57 silly reify mark deleted [
+57 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linux-ppc64'
+57 silly reify ]
+58 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linux-arm64
+59 silly reify mark deleted [
+59 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linux-arm64'
+59 silly reify ]
+60 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linux-arm
+61 silly reify mark deleted [
+61 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-linux-arm'
+61 silly reify ]
+62 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linuxmusl-x64
+63 silly reify mark deleted [
+63 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linuxmusl-x64'
+63 silly reify ]
+64 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linuxmusl-arm64
+65 silly reify mark deleted [
+65 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+65 silly reify ]
+66 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linux-x64
+67 silly reify mark deleted [
+67 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linux-x64'
+67 silly reify ]
+68 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linux-s390x
+69 silly reify mark deleted [
+69 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linux-s390x'
+69 silly reify ]
+70 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linux-riscv64
+71 silly reify mark deleted [
+71 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linux-riscv64'
+71 silly reify ]
+72 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linux-ppc64
+73 silly reify mark deleted [
+73 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linux-ppc64'
+73 silly reify ]
+74 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linux-arm64
+75 silly reify mark deleted [
+75 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linux-arm64'
+75 silly reify ]
+76 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linux-arm
+77 silly reify mark deleted [
+77 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-linux-arm'
+77 silly reify ]
+78 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-darwin-x64
+79 silly reify mark deleted [
+79 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-libvips-darwin-x64'
+79 silly reify ]
+80 verbose reify failed optional dependency /Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-darwin-x64
+81 silly reify mark deleted [
+81 silly reify   '/Users/theonesysetem/StudioProjects/invitation/node_modules/@img/sharp-darwin-x64'
+81 silly reify ]
+82 http cache @types/qrcode@https://registry.npmjs.org/@types/qrcode/-/qrcode-1.5.6.tgz 0ms (cache hit)
+83 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.11.3.tgz 0ms (cache hit)
+84 silly tarball no local data for @types/qrcode@https://registry.npmjs.org/@types/qrcode/-/qrcode-1.5.6.tgz. Extracting by manifest.
+85 http fetch GET 200 https://registry.npmjs.org/@types/qrcode/-/qrcode-1.5.6.tgz 256ms (cache miss)
+86 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 268ms
+87 silly audit report {
+87 silly audit report   jspdf: [
+87 silly audit report     {
+87 silly audit report       id: 1112264,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-f8cm-6447-x5h2',
+87 silly audit report       title: 'jsPDF has Local File Inclusion/Path Traversal vulnerability',
+87 silly audit report       severity: 'critical',
+87 silly audit report       vulnerable_versions: '<=3.0.4',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1112801,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-pqxr-3g65-p328',
+87 silly audit report       title: 'jsPDF has PDF Injection in AcroFormChoiceField that allows Arbitrary JavaScript Execution',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '<=4.0.0',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1112802,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-95fx-jjr5-f39c',
+87 silly audit report       title: 'jsPDF Vulnerable to Denial of Service (DoS) via Unvalidated BMP Dimensions in BMPDecoder',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '<=4.0.0',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1112803,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-vm32-vv63-w422',
+87 silly audit report       title: 'jsPDF Vulnerable to Stored XMP Metadata Injection (Spoofing & Integrity Violation)',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '<=4.0.0',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1112804,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-cjw8-79x6-5cj4',
+87 silly audit report       title: 'jsPDF has Shared State Race Condition in addJS Plugin',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '<=4.0.0',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1113310,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-9vjf-qc39-jprp',
+87 silly audit report       title: 'jsPDF has a PDF Object Injection via Unsanitized Input in addJS Method',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '<4.2.0',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1113324,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-67pg-wm7f-q7fj',
+87 silly audit report       title: 'jsPDF Affected by Client-Side/Server-Side Denial of Service via Malicious GIF Dimensions',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '<4.2.0',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1114396,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-p5xg-68wr-hm3m',
+87 silly audit report       title: 'jsPDF has a PDF Injection in AcroForm module allows Arbitrary JavaScript Execution (RadioButton.createOption and "AS" property)',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '<4.2.0',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1114950,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-7x6v-j9x4-qf24',
+87 silly audit report       title: 'jsPDF has a PDF Object Injection via FreeText color',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '<=4.2.0',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1114974,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-wfv2-pwc8-crg5',
+87 silly audit report       title: 'jsPDF has HTML Injection in New Window paths',
+87 silly audit report       severity: 'critical',
+87 silly audit report       vulnerable_versions: '<=4.2.0',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     }
+87 silly audit report   ],
+87 silly audit report   postcss: [
+87 silly audit report     {
+87 silly audit report       id: 1117015,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-qx2v-qp2m-jg93',
+87 silly audit report       title: 'PostCSS has XSS via Unescaped </style> in its CSS Stringify Output',
+87 silly audit report       severity: 'moderate',
+87 silly audit report       vulnerable_versions: '<8.5.10',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1124252,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-6g55-p6wh-862q',
+87 silly audit report       title: 'PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '<=8.5.11',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     },
+87 silly audit report     {
+87 silly audit report       id: 1124288,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-r28c-9q8g-f849',
+87 silly audit report       title: 'PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '<=8.5.17',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     }
+87 silly audit report   ],
+87 silly audit report   sharp: [
+87 silly audit report     {
+87 silly audit report       id: 1124066,
+87 silly audit report       url: 'https://github.com/advisories/GHSA-f88m-g3jw-g9cj',
+87 silly audit report       title: 'sharp inherited vulnerabilities in libvips: CVE-2026-33327, CVE-2026-33328, CVE-2026-35590, CVE-2026-35591',
+87 silly audit report       severity: 'high',
+87 silly audit report       vulnerable_versions: '<0.35.0',
+87 silly audit report       cwe: [Array],
+87 silly audit report       cvss: [Object]
+87 silly audit report     }
+87 silly audit report   ]
+87 silly audit report }
+88 silly packumentCache corgi:https://registry.npmjs.org/jspdf cache-miss
+89 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+90 silly packumentCache corgi:https://registry.npmjs.org/sharp cache-miss
+91 http cache https://registry.npmjs.org/sharp 64ms (cache hit)
+92 silly packumentCache corgi:https://registry.npmjs.org/sharp set size:291503 disposed:false
+93 http cache https://registry.npmjs.org/jspdf 68ms (cache hit)
+94 silly packumentCache corgi:https://registry.npmjs.org/jspdf set size:68277 disposed:false
+95 http cache https://registry.npmjs.org/postcss 71ms (cache hit)
+96 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:352693 disposed:false
+97 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+98 http cache https://registry.npmjs.org/next 43ms (cache hit)
+99 silly packumentCache corgi:https://registry.npmjs.org/next set size:25398200 disposed:false
+100 silly ADD node_modules/@types/qrcode
+101 silly ADD
+102 silly ADD
+103 silly ADD
+104 silly ADD
+105 silly ADD
+106 silly ADD
+107 silly ADD
+108 silly ADD
+109 silly ADD
+110 silly ADD
+111 silly ADD
+112 silly ADD
+113 silly ADD
+114 silly ADD
+115 silly ADD
+116 silly ADD
+117 silly ADD
+118 silly ADD
+119 silly ADD
+120 silly ADD
+121 silly ADD
+122 silly ADD
+123 silly ADD
+124 silly ADD
+125 silly ADD
+126 silly ADD
+127 silly ADD
+128 silly ADD
+129 silly ADD
+130 silly ADD
+131 verbose cwd /Users/theonesysetem/StudioProjects/invitation
+132 verbose os Darwin 25.5.0
+133 verbose node v23.11.0
+134 verbose npm  v10.9.2
+135 verbose exit 0
+136 info ok
