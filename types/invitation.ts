@@ -15,7 +15,6 @@ export type InvitationData = {
     venueAddress: string;
     googleMapsUrl: string;
     phoneNumber: string;
-    backgroundMusicUrl: string;
     logoLabel: string;
     heroBackgroundImage: string;
     themeColors: {
@@ -39,7 +38,6 @@ export type InvitationData = {
         alt: string;
     }>;
     quotes: string[];
-    rsvpFields: string[];
     calendarEvent: {
         title: string;
         description: string;

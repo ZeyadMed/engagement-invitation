@@ -19,7 +19,7 @@ export function createIcsContent(event: InvitationData['calendarEvent']) {
     return [
         'BEGIN:VCALENDAR',
         'VERSION:2.0',
-        'PRODID:-//Eman & Zeyad Invitation//EN',
+        'PRODID:-//Zeyad & Eman Invitation//EN',
         'CALSCALE:GREGORIAN',
         'BEGIN:VEVENT',
         `UID:${event.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${Date.now()}@invitation`,

@@ -2,11 +2,11 @@ import type { InvitationData } from '@/types/invitation';
 
 export const invitationData: InvitationData = {
     couple: {
+        groomName: 'Zeyad',
         brideName: 'Eman',
-        groomName: 'Zeyad'
     },
-    invitationSlug: 'eman-zeyad',
-    invitationUrl: 'https://eman-zeyad.invitation',
+    invitationSlug: 'zeyad-eman',
+    invitationUrl: 'https://zeyad-eman.invitation',
     weddingDateLabel: '11/9/2026',
     weddingDateISO: '2026-09-11T20:00:00',
     invitationText:
@@ -17,12 +17,11 @@ export const invitationData: InvitationData = {
         'In your smile, I found my home. In your hand, I found my forever.',
     eventTime: '8:00 PM',
     venue: 'Raz Garden',
-    venueAddress: 'Raz Garden, Egypt',
+    venueAddress: 'منيل شيحه بجوار توكيل تويوتا اخر شارع البحر الأعظم - الجيزة ',
     googleMapsUrl: 'https://maps.app.goo.gl/Q5D9u1xpU32GJKHh7',
     phoneNumber: '+20 100 000 0000',
-    backgroundMusicUrl: '/music/invitation-music.mp3',
-    logoLabel: 'E & Z',
-    heroBackgroundImage: '/assets/Beautiful under the veil bride and groom portrait….jpeg',
+    logoLabel: 'Zeyad & Eman',
+    heroBackgroundImage: '/assets/debl.jpeg',
     themeColors: {
         background: '#120f10',
         backgroundSoft: '#1d1618',
@@ -36,14 +35,14 @@ export const invitationData: InvitationData = {
     },
     storyTimeline: [
         {
-            title: 'Recitation of Al-Fatiha',
-            date: '20/3/2026',
-            description: 'A gentle beginning surrounded by blessings, family, and heartfelt prayers.'
-        },
-        {
             title: 'Proposal',
             date: '6/3/2026',
             description: 'A promise made with joy, sincerity, and the calm certainty of a shared future.'
+        },
+        {
+            title: 'Recitation of Al-Fatiha',
+            date: '20/3/2026',
+            description: 'A gentle beginning surrounded by blessings, family, and heartfelt prayers.'
         },
         {
             title: 'Engagement',
@@ -82,11 +81,10 @@ export const invitationData: InvitationData = {
         'Where you are is where the romance begins, and where our story feels complete.',
         'A beautiful life is simply two souls that keep finding home in each other.'
     ],
-    rsvpFields: ['Name', 'Message'],
     calendarEvent: {
-        title: 'Eman & Zeyad Engagement',
+        title: 'Zeyad & Eman Engagement',
         description:
-            'Join us for the engagement celebration of Eman and Zeyad at Raz Garden.',
+            'Join us for the engagement celebration of Zeyad & Eman at Raz Garden.',
         location: 'Raz Garden',
         start: '2026-09-11T20:00:00',
         end: '2026-09-11T23:00:00'

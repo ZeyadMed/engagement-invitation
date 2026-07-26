@@ -12,11 +12,11 @@ import '@fontsource/manrope/700.css';
 import { invitationData } from '@/data/invitation';
 
 export const metadata: Metadata = {
-    title: `${invitationData.couple.brideName} & ${invitationData.couple.groomName} | Engagement Invitation`,
+    title: `${invitationData.couple.groomName} & ${invitationData.couple.brideName} | Engagement Invitation`,
     description: invitationData.invitationText,
-    metadataBase: new URL('https://eman-zeyad.invitation'),
+    metadataBase: new URL('https://zeyad-eman.invitation'),
     openGraph: {
-        title: `${invitationData.couple.brideName} & ${invitationData.couple.groomName}`,
+        title: `${invitationData.couple.groomName} & ${invitationData.couple.brideName}`,
         description: invitationData.invitationText,
         type: 'website'
     },

@@ -106,21 +106,21 @@
 93 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
 94 http fetch GET 200 https://registry.npmjs.org/typescript 305ms (cache miss)
 95 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
-96 silly placeDep ROOT @types/node@24.13.3 OK for: eman-zeyad-invitation@1.0.0 want: ^24.2.0
-97 silly placeDep ROOT @types/react@19.2.17 OK for: eman-zeyad-invitation@1.0.0 want: ^19.1.8
-98 silly placeDep ROOT @types/react-dom@19.2.3 OK for: eman-zeyad-invitation@1.0.0 want: ^19.1.6
-99 silly placeDep ROOT autoprefixer@10.5.4 OK for: eman-zeyad-invitation@1.0.0 want: ^10.4.21
+96 silly placeDep ROOT @types/node@24.13.3 OK for: zeyad-eman-invitation@1.0.0 want: ^24.2.0
+97 silly placeDep ROOT @types/react@19.2.17 OK for: zeyad-eman-invitation@1.0.0 want: ^19.1.8
+98 silly placeDep ROOT @types/react-dom@19.2.3 OK for: zeyad-eman-invitation@1.0.0 want: ^19.1.6
+99 silly placeDep ROOT autoprefixer@10.5.4 OK for: zeyad-eman-invitation@1.0.0 want: ^10.4.21
 100 silly placeDep ROOT postcss@8.5.23 OK for: autoprefixer@10.5.4 want: ^8.1.0
-101 silly placeDep ROOT framer-motion@11.18.2 OK for: eman-zeyad-invitation@1.0.0 want: ^11.18.2
-102 silly placeDep ROOT html-to-image@1.11.13 OK for: eman-zeyad-invitation@1.0.0 want: ^1.11.13
-103 silly placeDep ROOT jspdf@3.0.4 OK for: eman-zeyad-invitation@1.0.0 want: ^3.0.3
-104 silly placeDep ROOT lucide-react@0.542.0 OK for: eman-zeyad-invitation@1.0.0 want: ^0.542.0
+101 silly placeDep ROOT framer-motion@11.18.2 OK for: zeyad-eman-invitation@1.0.0 want: ^11.18.2
+102 silly placeDep ROOT html-to-image@1.11.13 OK for: zeyad-eman-invitation@1.0.0 want: ^1.11.13
+103 silly placeDep ROOT jspdf@3.0.4 OK for: zeyad-eman-invitation@1.0.0 want: ^3.0.3
+104 silly placeDep ROOT lucide-react@0.542.0 OK for: zeyad-eman-invitation@1.0.0 want: ^0.542.0
 105 silly placeDep ROOT react@19.2.8 OK for: lucide-react@0.542.0 want: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-106 silly placeDep ROOT next@15.5.22 OK for: eman-zeyad-invitation@1.0.0 want: ^15.4.6
+106 silly placeDep ROOT next@15.5.22 OK for: zeyad-eman-invitation@1.0.0 want: ^15.4.6
 107 silly placeDep ROOT react-dom@19.2.8 OK for: next@15.5.22 want: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
-108 silly placeDep ROOT qrcode@1.5.4 OK for: eman-zeyad-invitation@1.0.0 want: ^1.5.4
-109 silly placeDep ROOT tailwindcss@3.4.19 OK for: eman-zeyad-invitation@1.0.0 want: ^3.4.17
-110 silly placeDep ROOT typescript@5.9.3 OK for: eman-zeyad-invitation@1.0.0 want: ^5.9.2
+108 silly placeDep ROOT qrcode@1.5.4 OK for: zeyad-eman-invitation@1.0.0 want: ^1.5.4
+109 silly placeDep ROOT tailwindcss@3.4.19 OK for: zeyad-eman-invitation@1.0.0 want: ^3.4.17
+110 silly placeDep ROOT typescript@5.9.3 OK for: zeyad-eman-invitation@1.0.0 want: ^5.9.2
 111 silly fetch manifest undici-types@~7.18.0
 112 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
 113 silly fetch manifest csstype@^3.2.2

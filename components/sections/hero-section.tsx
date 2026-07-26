@@ -9,11 +9,10 @@ import { HeroFloatingHearts } from '@/components/hero-floating-hearts';
 
 type HeroSectionProps = {
     data: InvitationData;
-    onOpenMusic: () => void;
     onShare: () => void;
 };
 
-export function HeroSection({ data, onOpenMusic, onShare }: HeroSectionProps) {
+export function HeroSection({ data, onShare }: HeroSectionProps) {
     const jumpToContent = () => {
         document.getElementById('countdown')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     };
@@ -25,7 +24,7 @@ export function HeroSection({ data, onOpenMusic, onShare }: HeroSectionProps) {
                 style={{ backgroundImage: `url(${data.heroBackgroundImage})` }}
                 aria-hidden
             />
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(248,222,208,0.2),transparent_40%),linear-gradient(180deg,rgba(18,15,16,0.28)_0%,rgba(18,15,16,0.92)_100%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(248,222,208,0.1),transparent_38%),linear-gradient(180deg,rgba(18,15,16,0.1)_0%,rgba(18,15,16,0.72)_100%)]" />
             <FloatingDecor />
             <HeroFloatingHearts />
             <ConfettiBurst />
@@ -73,11 +72,12 @@ export function HeroSection({ data, onOpenMusic, onShare }: HeroSectionProps) {
                             transition={{ duration: 0.95, delay: 0.1 }}
                             className="mx-auto max-w-[12ch] text-balance font-serif text-[clamp(3.15rem,14vw,7.9rem)] leading-[0.92] tracking-tight text-white"
                         >
-                            <span className="block">{data.couple.brideName}</span>
+                            <span className="block">{data.couple.groomName}</span>
                             <span className="my-2 inline-flex items-center justify-center text-[color:var(--accent)] sm:my-3">
                                 <Heart className="h-7 w-7 fill-current sm:h-12 sm:w-12" />
                             </span>
-                            <span className="block">{data.couple.groomName}</span>
+                            <span className="block">{data.couple.brideName}</span>
+
                         </motion.h1>
 
                         <motion.p
@@ -102,7 +102,7 @@ export function HeroSection({ data, onOpenMusic, onShare }: HeroSectionProps) {
                             initial={{ opacity: 0, y: 24 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.9, delay: 0.38 }}
-                            className="mt-8 grid gap-3 sm:flex sm:flex-row sm:items-center sm:justify-center"
+                            className="mt-8 flex justify-center"
                         >
                             <button
                                 type="button"
@@ -110,13 +110,6 @@ export function HeroSection({ data, onOpenMusic, onShare }: HeroSectionProps) {
                                 className="inline-flex w-full items-center justify-center rounded-full bg-[linear-gradient(135deg,#f4dfd3,#d6aa8a)] px-7 py-4 text-sm font-semibold text-[#26191a] shadow-glow transition hover:translate-y-[-1px] sm:w-auto"
                             >
                                 Enter the Invitation
-                            </button>
-                            <button
-                                type="button"
-                                onClick={onOpenMusic}
-                                className="inline-flex w-full items-center justify-center rounded-full border border-white/12 bg-white/6 px-7 py-4 text-sm font-semibold text-white backdrop-blur-xl transition hover:bg-white/10 sm:w-auto"
-                            >
-                                Start Music
                             </button>
                         </motion.div>
 
