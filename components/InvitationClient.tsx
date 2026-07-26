@@ -5,6 +5,7 @@ import type { InvitationData } from '@/types/invitation';
 import { LoadingOverlay } from '@/components/loading-overlay';
 import { ScrollProgress } from '@/components/scroll-progress';
 import { BackToTopButton } from '@/components/back-to-top-button';
+import { BackgroundMusic } from '@/components/background-music';
 import { HeroSection } from '@/components/sections/hero-section';
 import { CountdownSection } from '@/components/sections/countdown-section';
 import { StorySection } from '@/components/sections/story-section';
@@ -27,6 +28,7 @@ export function InvitationClient({ data }: InvitationClientProps) {
             <LoadingOverlay />
             <ScrollProgress />
             <BackToTopButton />
+            <BackgroundMusic src={data.backgroundMusicUrl} />
 
             <main
                 ref={invitationRef}

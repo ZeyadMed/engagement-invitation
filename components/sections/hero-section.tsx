@@ -20,11 +20,11 @@ export function HeroSection({ data, onShare }: HeroSectionProps) {
     return (
         <section className="relative min-h-[100svh] overflow-hidden px-4 py-4 sm:px-6 sm:py-6 lg:px-8">
             <div
-                className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-28 blur-[1px] scale-105 sm:scale-100"
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-105 sm:scale-100"
                 style={{ backgroundImage: `url(${data.heroBackgroundImage})` }}
                 aria-hidden
             />
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(248,222,208,0.1),transparent_38%),linear-gradient(180deg,rgba(18,15,16,0.1)_0%,rgba(18,15,16,0.72)_100%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(248,222,208,0.08),transparent_45%),linear-gradient(180deg,rgba(18,15,16,0.28)_0%,rgba(18,15,16,0.62)_100%)]" />
             <FloatingDecor />
             <HeroFloatingHearts />
             <ConfettiBurst />

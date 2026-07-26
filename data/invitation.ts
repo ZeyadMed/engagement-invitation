@@ -22,6 +22,7 @@ export const invitationData: InvitationData = {
     phoneNumber: '+20 100 000 0000',
     logoLabel: 'Zeyad & Eman',
     heroBackgroundImage: '/assets/debl.jpeg',
+    backgroundMusicUrl: '/music/Helm_Seneen.mp3',
     themeColors: {
         background: '#120f10',
         backgroundSoft: '#1d1618',

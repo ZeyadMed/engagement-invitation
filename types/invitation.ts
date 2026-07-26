@@ -17,6 +17,7 @@ export type InvitationData = {
     phoneNumber: string;
     logoLabel: string;
     heroBackgroundImage: string;
+    backgroundMusicUrl: string;
     themeColors: {
         background: string;
         backgroundSoft: string;
